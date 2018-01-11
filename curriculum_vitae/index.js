@@ -22,7 +22,7 @@ app.get('/contacto', (req, res) => res.send('Contactame a hm.astorga@gmail.com')
 
 var mysql = require('mysql');
 
-var connection = mysql.createConnection({
+connection = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "barracuda132"
